@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:white_carpet run scoreboard players set @s bw_block 202
+execute if block ~ ~ ~ minecraft:orange_carpet run scoreboard players set @s bw_block 203
+execute if block ~ ~ ~ minecraft:magenta_carpet run scoreboard players set @s bw_block 204
+execute if block ~ ~ ~ minecraft:light_blue_carpet run scoreboard players set @s bw_block 205
+execute if block ~ ~ ~ minecraft:yellow_carpet run scoreboard players set @s bw_block 206
+execute if block ~ ~ ~ minecraft:lime_carpet run scoreboard players set @s bw_block 207
+execute if block ~ ~ ~ minecraft:pink_carpet run scoreboard players set @s bw_block 208
+execute if block ~ ~ ~ minecraft:gray_carpet run scoreboard players set @s bw_block 209
+execute if block ~ ~ ~ minecraft:light_gray_carpet run scoreboard players set @s bw_block 210
+execute if block ~ ~ ~ minecraft:cyan_carpet run scoreboard players set @s bw_block 211
+execute if block ~ ~ ~ minecraft:purple_carpet run scoreboard players set @s bw_block 212
+execute if block ~ ~ ~ minecraft:blue_carpet run scoreboard players set @s bw_block 213
+execute if block ~ ~ ~ minecraft:brown_carpet run scoreboard players set @s bw_block 214
+execute if block ~ ~ ~ minecraft:green_carpet run scoreboard players set @s bw_block 215
+execute if block ~ ~ ~ minecraft:red_carpet run scoreboard players set @s bw_block 216
+execute if block ~ ~ ~ minecraft:black_carpet run scoreboard players set @s bw_block 217
