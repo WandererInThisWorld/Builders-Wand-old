@@ -1,0 +1,19 @@
+execute align xyz if entity @e[dx=0,limit=1] run scoreboard players set #bw_cdbs bw_calc 0
+execute if entity @s[scores={bw_block=218}] run function builders_wand:blocks/oceanblocks/prismarine/prexyz
+execute if entity @s[scores={bw_block=219}] run function builders_wand:blocks/oceanblocks/prismarine_bricks/prexyz
+execute if entity @s[scores={bw_block=220}] run function builders_wand:blocks/oceanblocks/dark_prismarine/prexyz
+execute if entity @s[scores={bw_block=221}] run function builders_wand:blocks/oceanblocks/sea_lantern/prexyz
+execute if entity @s[scores={bw_block=222}] run function builders_wand:blocks/oceanblocks/dried_kelp/prexyz
+execute if entity @s[scores={bw_block=223}] run function builders_wand:blocks/oceanblocks/packed_ice/prexyz
+execute if entity @s[scores={bw_block=224}] run function builders_wand:blocks/oceanblocks/ice/prexyz
+execute if entity @s[scores={bw_block=225}] run function builders_wand:blocks/oceanblocks/blue_ice/prexyz
+execute if entity @s[scores={bw_block=226}] run function builders_wand:blocks/oceanblocks/tube_coral/prexyz
+execute if entity @s[scores={bw_block=227}] run function builders_wand:blocks/oceanblocks/brain_coral/prexyz
+execute if entity @s[scores={bw_block=228}] run function builders_wand:blocks/oceanblocks/bubble_coral/prexyz
+execute if entity @s[scores={bw_block=229}] run function builders_wand:blocks/oceanblocks/fire_coral/prexyz
+execute if entity @s[scores={bw_block=230}] run function builders_wand:blocks/oceanblocks/horn_coral/prexyz
+execute if entity @s[scores={bw_block=231}] run function builders_wand:blocks/oceanblocks/dead_tube_coral/prexyz
+execute if entity @s[scores={bw_block=232}] run function builders_wand:blocks/oceanblocks/dead_brain_coral/prexyz
+execute if entity @s[scores={bw_block=233}] run function builders_wand:blocks/oceanblocks/dead_bubble_coral/prexyz
+execute if entity @s[scores={bw_block=234}] run function builders_wand:blocks/oceanblocks/dead_fire_coral/prexyz
+execute if entity @s[scores={bw_block=235}] run function builders_wand:blocks/oceanblocks/dead_horn_coral/prexyz
