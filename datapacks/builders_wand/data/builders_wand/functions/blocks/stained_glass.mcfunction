@@ -1,0 +1,17 @@
+execute if block ~ ~ ~ minecraft:white_stained_glass run scoreboard players set @s bw_block 112
+execute if block ~ ~ ~ minecraft:orange_stained_glass run scoreboard players set @s bw_block 113
+execute if block ~ ~ ~ minecraft:magenta_stained_glass run scoreboard players set @s bw_block 114
+execute if block ~ ~ ~ minecraft:light_blue_stained_glass run scoreboard players set @s bw_block 115
+execute if block ~ ~ ~ minecraft:yellow_stained_glass run scoreboard players set @s bw_block 116
+execute if block ~ ~ ~ minecraft:lime_stained_glass run scoreboard players set @s bw_block 117
+execute if block ~ ~ ~ minecraft:pink_stained_glass run scoreboard players set @s bw_block 118
+execute if block ~ ~ ~ minecraft:gray_stained_glass run scoreboard players set @s bw_block 119
+execute if block ~ ~ ~ minecraft:light_gray_stained_glass run scoreboard players set @s bw_block 120
+execute if block ~ ~ ~ minecraft:cyan_stained_glass run scoreboard players set @s bw_block 121
+execute if block ~ ~ ~ minecraft:purple_stained_glass run scoreboard players set @s bw_block 122
+execute if block ~ ~ ~ minecraft:blue_stained_glass run scoreboard players set @s bw_block 123
+execute if block ~ ~ ~ minecraft:brown_stained_glass run scoreboard players set @s bw_block 124
+execute if block ~ ~ ~ minecraft:green_stained_glass run scoreboard players set @s bw_block 125
+execute if block ~ ~ ~ minecraft:red_stained_glass run scoreboard players set @s bw_block 126
+execute if block ~ ~ ~ minecraft:black_stained_glass run scoreboard players set @s bw_block 127
+execute if block ~ ~ ~ minecraft:glass run scoreboard players set @s bw_block 128

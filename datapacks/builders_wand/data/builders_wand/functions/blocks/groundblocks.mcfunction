@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:grass_block run scoreboard players set @s bw_block 15
+execute if block ~ ~ ~ minecraft:mycelium run scoreboard players set @s bw_block 16
+execute if block ~ ~ ~ minecraft:podzol run scoreboard players set @s bw_block 17
+execute if block ~ ~ ~ minecraft:dirt run scoreboard players set @s bw_block 18
+execute if block ~ ~ ~ minecraft:coarse_dirt run scoreboard players set @s bw_block 19
+execute if block ~ ~ ~ minecraft:sand run scoreboard players set @s bw_block 20
+execute if block ~ ~ ~ minecraft:red_sand run scoreboard players set @s bw_block 21
+execute if block ~ ~ ~ minecraft:gravel run scoreboard players set @s bw_block 22
+execute if block ~ ~ ~ minecraft:gold_ore run scoreboard players set @s bw_block 23
+execute if block ~ ~ ~ minecraft:iron_ore run scoreboard players set @s bw_block 24
+execute if block ~ ~ ~ minecraft:coal_ore run scoreboard players set @s bw_block 25
+execute if block ~ ~ ~ minecraft:lapis_ore run scoreboard players set @s bw_block 26
+execute if block ~ ~ ~ minecraft:diamond_ore run scoreboard players set @s bw_block 27
+execute if block ~ ~ ~ minecraft:redstone_ore run scoreboard players set @s bw_block 28
+execute if block ~ ~ ~ minecraft:emerald_ore run scoreboard players set @s bw_block 29
+execute if block ~ ~ ~ minecraft:nether_quartz_ore run scoreboard players set @s bw_block 30

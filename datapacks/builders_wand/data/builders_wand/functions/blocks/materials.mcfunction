@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:hay_block[axis=x] run scoreboard players set @s bw_block 147
+execute if block ~ ~ ~ minecraft:hay_block[axis=y] run scoreboard players set @s bw_block 148
+execute if block ~ ~ ~ minecraft:hay_block[axis=z] run scoreboard players set @s bw_block 149
+execute if block ~ ~ ~ minecraft:bone_block[axis=x] run scoreboard players set @s bw_block 150
+execute if block ~ ~ ~ minecraft:bone_block[axis=y] run scoreboard players set @s bw_block 151
+execute if block ~ ~ ~ minecraft:bone_block[axis=z] run scoreboard players set @s bw_block 152
+execute if block ~ ~ ~ minecraft:lapis_block run scoreboard players set @s bw_block 153
+execute if block ~ ~ ~ minecraft:gold_block run scoreboard players set @s bw_block 154
+execute if block ~ ~ ~ minecraft:iron_block run scoreboard players set @s bw_block 155
+execute if block ~ ~ ~ minecraft:diamond_block run scoreboard players set @s bw_block 156
+execute if block ~ ~ ~ minecraft:emerald_block run scoreboard players set @s bw_block 157
+execute if block ~ ~ ~ minecraft:redstone_block run scoreboard players set @s bw_block 158
+execute if block ~ ~ ~ minecraft:coal_block run scoreboard players set @s bw_block 159
+execute if block ~ ~ ~ minecraft:nether_wart_block run scoreboard players set @s bw_block 160
+execute if block ~ ~ ~ minecraft:snow_block run scoreboard players set @s bw_block 161
+execute if block ~ ~ ~ minecraft:clay run scoreboard players set @s bw_block 162

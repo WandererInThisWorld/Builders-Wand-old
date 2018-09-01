@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:black_concrete run scoreboard players set @s bw_block 31
+execute if block ~ ~ ~ minecraft:orange_concrete run scoreboard players set @s bw_block 32
+execute if block ~ ~ ~ minecraft:magenta_concrete run scoreboard players set @s bw_block 33
+execute if block ~ ~ ~ minecraft:light_blue_concrete run scoreboard players set @s bw_block 34
+execute if block ~ ~ ~ minecraft:yellow_concrete run scoreboard players set @s bw_block 35
+execute if block ~ ~ ~ minecraft:lime_concrete run scoreboard players set @s bw_block 36
+execute if block ~ ~ ~ minecraft:pink_concrete run scoreboard players set @s bw_block 37
+execute if block ~ ~ ~ minecraft:gray_concrete run scoreboard players set @s bw_block 38
+execute if block ~ ~ ~ minecraft:light_gray_concrete run scoreboard players set @s bw_block 39
+execute if block ~ ~ ~ minecraft:cyan_concrete run scoreboard players set @s bw_block 40
+execute if block ~ ~ ~ minecraft:purple_concrete run scoreboard players set @s bw_block 41
+execute if block ~ ~ ~ minecraft:blue_concrete run scoreboard players set @s bw_block 42
+execute if block ~ ~ ~ minecraft:brown_concrete run scoreboard players set @s bw_block 43
+execute if block ~ ~ ~ minecraft:green_concrete run scoreboard players set @s bw_block 44
+execute if block ~ ~ ~ minecraft:red_concrete run scoreboard players set @s bw_block 45
+execute if block ~ ~ ~ minecraft:black_concrete run scoreboard players set @s bw_block 46
