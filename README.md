@@ -1,6 +1,6 @@
 # Builders Wand
 
-A Datapack for Minecraft Java Edition 1.13 that brings parts of the "Better Builder's Wand" into Vanilla Minecraft
+A Datapack for Minecraft Java Edition 1.13 that brings parts of the Better Builder's Wand Mod into Vanilla Minecraft
 
 As the Name suggests, this Datapack adds a Wand into the game that lets you place Blocks down faster than just one at a Time. When the player holds the Wand in the Main Hand it projects a Marker onto any surface the player is looking at. Based on the Mode particles will show an Outine of where Blocks could be placed.
 
