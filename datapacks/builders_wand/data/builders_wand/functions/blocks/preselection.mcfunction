@@ -1,0 +1,24 @@
+execute align xyz if entity @e[dx=0,limit=1] run scoreboard players set #bw_cdbs bw_calc 0
+execute if entity @s[scores={bw_block=590}] run function builders_wand:blocks/randoms/bookshelf/prexyz
+execute if entity @s[scores={bw_block=591}] run function builders_wand:blocks/randoms/bricks/prexyz
+execute if entity @s[scores={bw_block=592}] run function builders_wand:blocks/randoms/cobweb/prexyz
+execute if entity @s[scores={bw_block=593}] run function builders_wand:blocks/randoms/pumpkin/prexyz
+execute if entity @s[scores={bw_block=594}] run function builders_wand:blocks/randoms/melon/prexyz
+execute if entity @s[scores={bw_block=595}] run function builders_wand:blocks/randoms/brown_mushroom_block/prexyz
+execute if entity @s[scores={bw_block=596}] run function builders_wand:blocks/randoms/red_mushroom_block/prexyz
+execute if entity @s[scores={bw_block=597}] run function builders_wand:blocks/randoms/mushroom_stem/prexyz
+execute if entity @s[scores={bw_block=598}] run function builders_wand:blocks/randoms/redstone_lamp/prexyz
+execute if entity @s[scores={bw_block=599}] run function builders_wand:blocks/randoms/slime_block/prexyz
+execute if entity @s[scores={bw_block=600}] run function builders_wand:blocks/randoms/tnt/prexyz
+execute if entity @s[scores={bw_block=601..606}] run function builders_wand:blocks/randoms/end_rod/prexyz
+execute if entity @s[scores={bw_block=607..611}] run function builders_wand:blocks/randoms/hopper/prexyz
+execute if entity @s[scores={bw_block=612..617}] run function builders_wand:blocks/randoms/dropper/prexyz
+execute if entity @s[scores={bw_block=618..623}] run function builders_wand:blocks/randoms/dispenser/prexyz
+execute if entity @s[scores={bw_block=624..629}] run function builders_wand:blocks/randoms/observer/prexyz
+execute if entity @s[scores={bw_block=630..635}] run function builders_wand:blocks/randoms/piston/prexyz
+execute if entity @s[scores={bw_block=636..641}] run function builders_wand:blocks/randoms/sticky_piston/prexyz
+execute if entity @s[scores={bw_block=642}] run function builders_wand:blocks/randoms/daylight_detector/prexyz
+execute if entity @s[scores={bw_block=643..644}] run function builders_wand:blocks/randoms/rail/prexyz
+execute if entity @s[scores={bw_block=645..646}] run function builders_wand:blocks/randoms/activator_rail/prexyz
+execute if entity @s[scores={bw_block=647..648}] run function builders_wand:blocks/randoms/detector_rail/prexyz
+execute if entity @s[scores={bw_block=649..650}] run function builders_wand:blocks/randoms/powered_rail/prexyz
