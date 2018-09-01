@@ -1,0 +1,25 @@
+execute align xyz if entity @e[dx=0,limit=1] run scoreboard players set #bw_cdbs bw_calc 0
+execute if entity @s[scores={bw_block=236..238}] run function builders_wand:blocks/logs/oak_wood/prexyz
+execute if entity @s[scores={bw_block=239..241}] run function builders_wand:blocks/logs/spruce_wood/prexyz
+execute if entity @s[scores={bw_block=242..244}] run function builders_wand:blocks/logs/birch_wood/prexyz
+execute if entity @s[scores={bw_block=245..247}] run function builders_wand:blocks/logs/jungle_wood/prexyz
+execute if entity @s[scores={bw_block=248..250}] run function builders_wand:blocks/logs/acacia_wood/prexyz
+execute if entity @s[scores={bw_block=251..253}] run function builders_wand:blocks/logs/dark_oak_wood/prexyz
+execute if entity @s[scores={bw_block=254..256}] run function builders_wand:blocks/logs/acacia_log/prexyz
+execute if entity @s[scores={bw_block=257..259}] run function builders_wand:blocks/logs/stripped_acacia_log/prexyz
+execute if entity @s[scores={bw_block=260..262}] run function builders_wand:blocks/logs/birch_log/prexyz
+execute if entity @s[scores={bw_block=263..265}] run function builders_wand:blocks/logs/stripped_birch_log/prexyz
+execute if entity @s[scores={bw_block=266..268}] run function builders_wand:blocks/logs/dark_oak_log/prexyz
+execute if entity @s[scores={bw_block=269..271}] run function builders_wand:blocks/logs/stripped_dark_oak_log/prexyz
+execute if entity @s[scores={bw_block=272..274}] run function builders_wand:blocks/logs/jungle_log/prexyz
+execute if entity @s[scores={bw_block=275..277}] run function builders_wand:blocks/logs/stripped_jungle_log/prexyz
+execute if entity @s[scores={bw_block=278..280}] run function builders_wand:blocks/logs/oak_log/prexyz
+execute if entity @s[scores={bw_block=281..283}] run function builders_wand:blocks/logs/stripped_oak_log/prexyz
+execute if entity @s[scores={bw_block=284..286}] run function builders_wand:blocks/logs/spruce_log/prexyz
+execute if entity @s[scores={bw_block=287..289}] run function builders_wand:blocks/logs/stripped_spruce_log/prexyz
+execute if entity @s[scores={bw_block=290..292}] run function builders_wand:blocks/logs/stripped_oak_wood/prexyz
+execute if entity @s[scores={bw_block=293..295}] run function builders_wand:blocks/logs/stripped_spruce_wood/prexyz
+execute if entity @s[scores={bw_block=296..298}] run function builders_wand:blocks/logs/stripped_birch_wood/prexyz
+execute if entity @s[scores={bw_block=299..301}] run function builders_wand:blocks/logs/stripped_jungle_wood/prexyz
+execute if entity @s[scores={bw_block=302..304}] run function builders_wand:blocks/logs/stripped_acacia_wood/prexyz
+execute if entity @s[scores={bw_block=305..307}] run function builders_wand:blocks/logs/stripped_dark_oak_wood/prexyz
