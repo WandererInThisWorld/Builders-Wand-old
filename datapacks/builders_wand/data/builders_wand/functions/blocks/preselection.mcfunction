@@ -1,0 +1,19 @@
+execute align xyz if entity @e[dx=0,limit=1] run scoreboard players set #bw_cdbs bw_calc 0
+execute if entity @s[scores={bw_block=129}] run function builders_wand:blocks/stained_glass_pane/white/prexyz
+execute if entity @s[scores={bw_block=130}] run function builders_wand:blocks/stained_glass_pane/orange/prexyz
+execute if entity @s[scores={bw_block=131}] run function builders_wand:blocks/stained_glass_pane/magenta/prexyz
+execute if entity @s[scores={bw_block=132}] run function builders_wand:blocks/stained_glass_pane/light_blue/prexy
+execute if entity @s[scores={bw_block=133}] run function builders_wand:blocks/stained_glass_pane/yellow/prexyz
+execute if entity @s[scores={bw_block=134}] run function builders_wand:blocks/stained_glass_pane/lime/prexyz
+execute if entity @s[scores={bw_block=135}] run function builders_wand:blocks/stained_glass_pane/pink/prexyz
+execute if entity @s[scores={bw_block=136}] run function builders_wand:blocks/stained_glass_pane/gray/prexyz
+execute if entity @s[scores={bw_block=137}] run function builders_wand:blocks/stained_glass_pane/light_gray/prexyz
+execute if entity @s[scores={bw_block=138}] run function builders_wand:blocks/stained_glass_pane/cyan/prexyz
+execute if entity @s[scores={bw_block=139}] run function builders_wand:blocks/stained_glass_pane/purple/prexyz
+execute if entity @s[scores={bw_block=140}] run function builders_wand:blocks/stained_glass_pane/blue/prexyz
+execute if entity @s[scores={bw_block=141}] run function builders_wand:blocks/stained_glass_pane/brown/prexyz
+execute if entity @s[scores={bw_block=142}] run function builders_wand:blocks/stained_glass_pane/green/prexyz
+execute if entity @s[scores={bw_block=143}] run function builders_wand:blocks/stained_glass_pane/red/prexyz
+execute if entity @s[scores={bw_block=144}] run function builders_wand:blocks/stained_glass_pane/black/prexyz
+execute if entity @s[scores={bw_block=145}] run function builders_wand:blocks/stained_glass_pane/glass_pane/prexyz
+execute if entity @s[scores={bw_block=146}] run function builders_wand:blocks/stained_glass_pane/iron_bars/prexyz
