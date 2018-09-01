@@ -1,0 +1,2 @@
+execute if block ~ ~1 ~ #builders_wand:gothrough positioned ~ ~1 ~ run function builders_wand:directions/asidey
+execute if block ~ ~-1 ~ #builders_wand:gothrough positioned ~ ~-1 ~ run function builders_wand:directions/asideney
