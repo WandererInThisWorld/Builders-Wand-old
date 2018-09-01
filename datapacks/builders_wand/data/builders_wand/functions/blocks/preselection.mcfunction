@@ -1,0 +1,20 @@
+execute align xyz if entity @e[dx=0,limit=1] run scoreboard players set #bw_cdbs bw_calc 0
+execute if entity @s[scores={bw_block=308..310}] run function builders_wand:blocks/slabs/stone/prexyz
+execute if entity @s[scores={bw_block=311..313}] run function builders_wand:blocks/slabs/stone_brick/prexyz
+execute if entity @s[scores={bw_block=314..316}] run function builders_wand:blocks/slabs/sandstone/prexyz
+execute if entity @s[scores={bw_block=317..319}] run function builders_wand:blocks/slabs/purpur/prexyz
+execute if entity @s[scores={bw_block=320..322}] run function builders_wand:blocks/slabs/quartz/prexyz
+execute if entity @s[scores={bw_block=323..325}] run function builders_wand:blocks/slabs/red_sandstone/prexyz
+execute if entity @s[scores={bw_block=326..328}] run function builders_wand:blocks/slabs/brick/prexyz
+execute if entity @s[scores={bw_block=329..331}] run function builders_wand:blocks/slabs/cobblestone/prexyz
+execute if entity @s[scores={bw_block=332..334}] run function builders_wand:blocks/slabs/nether_brick/prexyz
+execute if entity @s[scores={bw_block=335..337}] run function builders_wand:blocks/slabs/petrified_oak/prexyz
+execute if entity @s[scores={bw_block=338..340}] run function builders_wand:blocks/slabs/prismarine/prexyz
+execute if entity @s[scores={bw_block=341..343}] run function builders_wand:blocks/slabs/prismarine_brick/prexyz
+execute if entity @s[scores={bw_block=344..346}] run function builders_wand:blocks/slabs/dark_prismarine/prexyz
+execute if entity @s[scores={bw_block=347..349}] run function builders_wand:blocks/slabs/oak/prexyz
+execute if entity @s[scores={bw_block=350..352}] run function builders_wand:blocks/slabs/spruce/prexyz
+execute if entity @s[scores={bw_block=353..355}] run function builders_wand:blocks/slabs/birch/prexyz
+execute if entity @s[scores={bw_block=356..358}] run function builders_wand:blocks/slabs/jungle/prexyz
+execute if entity @s[scores={bw_block=359..361}] run function builders_wand:blocks/slabs/acacia/prexyz
+execute if entity @s[scores={bw_block=362..364}] run function builders_wand:blocks/slabs/dark_oak/prexyz
