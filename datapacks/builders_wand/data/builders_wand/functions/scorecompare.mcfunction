@@ -1,0 +1,2 @@
+scoreboard players operation @e[type=armor_stand,tag=bw_pos,sort=nearest,distance=..7] bw_block = @s bw_id
+execute as @e[type=armor_stand,tag=bw_pos,sort=nearest,distance=..7] run scoreboard players operation @s bw_block -= @s bw_id
