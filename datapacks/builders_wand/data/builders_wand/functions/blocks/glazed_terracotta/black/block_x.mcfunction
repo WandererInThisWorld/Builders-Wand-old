@@ -1,0 +1,7 @@
+execute store result score #bw_iafcr bw_calc run clear @s minecraft:black_glazed_terracotta 0
+execute if entity @s[scores={bw_block=711}] run function builders_wand:blocks/glazed_terracotta/black/set_n
+execute if entity @s[scores={bw_block=712}] run function builders_wand:blocks/glazed_terracotta/black/set_e
+execute if entity @s[scores={bw_block=713}] run function builders_wand:blocks/glazed_terracotta/black/set_s
+execute if entity @s[scores={bw_block=714}] run function builders_wand:blocks/glazed_terracotta/black/set_w
+execute if score #bw_iafcr bw_calc matches 1.. if block ~1 ~ ~ #builders_wand:gothrough positioned ~1 ~ ~ run function builders_wand:blocks/glazed_terracotta/black/xdir
+execute if score #bw_iafcr bw_calc matches 1.. if block ~-1 ~ ~ #builders_wand:gothrough positioned ~-1 ~ ~ run function builders_wand:blocks/glazed_terracotta/black/nexdir
