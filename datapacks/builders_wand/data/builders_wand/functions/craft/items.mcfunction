@@ -4,5 +4,5 @@ execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:purple_dye
 execute as @e[type=item,distance=..6,limit=1,tag=bw_craft] at @s run function builders_wand:craft/items2
 
 execute if score #bw_ctimer bw_calc matches 160 run scoreboard players set @s bw_craft 0
-execute if score #bw_ctimer bw_calc matches 160 run scoreboard players set #bw_ctimer bw_craft 0
+execute if score #bw_ctimer bw_calc matches 160 run scoreboard players set #bw_ctimer bw_calc 0
 execute if entity @e[type=item,distance=..6,limit=1,tag=bw_craft] run scoreboard players set @s bw_craft 0
