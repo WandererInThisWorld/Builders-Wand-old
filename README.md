@@ -32,3 +32,7 @@ This will remove the scoreboards that were added to make it work. Then you can c
 # Technical/Other
 
 The Wand is a retextured Carrot on a Stick. It's unbreakable and has the Damage Value 3. This makes it incompatible with other datapacks. It can be made compatible with other Datapacks that use Carrot on a Stick Items under the Condition that the Damage Value they're using is not 3. To make it compatible, the Resourcepacks from either Packs need to be combined. If there is ever a Case of incompatible datapacks because of these damage values, let me know which Datapack it is and I'll try to make them work with this Datapack.
+
+# Updated 03.09.2018
+
+I found a typo in the crafting functions. Nothing gamebreaking, but important enough that it needed fixing.
