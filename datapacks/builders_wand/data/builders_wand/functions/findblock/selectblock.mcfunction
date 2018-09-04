@@ -12,5 +12,4 @@ scoreboard players set #bw_find bw_block 0
 tag @s add bw_hold
 execute if entity @s[scores={bw_wrsbl=1..}] run function builders_wand:use
 
-function builders_wand:scorecompare
-execute as @e[type=armor_stand,tag=bw_pos,distance=..7,sort=nearest] at @s run function builders_wand:particles
+execute as @e[type=armor_stand,tag=bw_pos,distance=..7] at @s run function builders_wand:particles
