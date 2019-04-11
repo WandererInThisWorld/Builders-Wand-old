@@ -22,7 +22,7 @@ The Items have to have the correct count. It won't work if you throw 3 Sticks or
 
 # Installation
 
-To install this Datapack correctly you need to download two zipfiles, named: "builders_wand.zip" and Builder's Wand.zip". Click on these zip files and you will be brought to a different page with direct Download Buttons on the right hand side. Click that and save it. Then open your Minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile named: "builders_wand.zip" needs to be copied into.
+To install this Datapack correctly you need to download two zipfiles, named: "builders_wand.zip" and Builder's Wand.zip" which you can see directly in the Directory. Click on these zip files and each time you will be brought to a different page with a direct Download Button on the right hand side. Click that and save it. Then open your Minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile named: "builders_wand.zip" needs to be copied into.
 
 The Texture for the Wand is provided with a Resourcepack that comes as a file named "Builder's Wand.zip". Copy The Resourcepack into your Resourepacks Folder in your Minecraft Directory and activate the Resourcepack in the Game under Options-> Resource Packs.
 
