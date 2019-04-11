@@ -15,12 +15,14 @@ What Blocks are unsupported/can't be placed? - Pressure Plates, Buttons, Flowers
 
 # Crafting
 
-To obtain a Builder's Wand you will need to use 2 Sticks, one Diamond and one purple dye. Throw them onto a crafting table and you'll get the Builder's Wand. (In survival Mode)
+To obtain a Builder's Wand you will need to use 2 Sticks, one Diamond and one purple dye. You will need to drop them from your hand, or your Inventory. Normally the assigned key to drop items is "q", unless you changed that in your Minecraft settings. Throw these Items onto a crafting table.
+
+The Items have to have the correct count. It won't work if you throw 3 Sticks or 2 dyes. You can also only "craft" if your Player is in Survival Mode, since this datapack was designed to be used in Survival Minecraft. Throw these Items onto a crafting table and you'll get the Builder's Wand.
 
 
 # Installation
 
-To install this Datapack, click "Clone or Download", then Download ZIP. You have to unzip the Downloaded File which includes a zipfile named "builders_wand". Then open your Minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile needs to be copied into.
+To install this Datapack, click "Clone or Download", then Download ZIP. You have to unzip the Downloaded File which includes a zipfile named "builders_wand". Then open your Minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile named:"builders_wand" needs to be copied into.
 
 The Texture for the Wand is provided with a Resourcepack that comes as a seperate ZIP File in the Download, named "Builder's Wand". Copy The Resourcepack into your resourepacks folder in your Minecraft Directory and activate the resourcepack in the Game under options-> Resource packs.
 
