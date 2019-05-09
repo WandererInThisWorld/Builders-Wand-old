@@ -1,6 +1,6 @@
-# Builders Wand
+# The 1.14 Version is a Work in Progress. In its current state it's useable, but I still want to change some things around.
 
-# 1.13 Version is
+# Builders Wand
 
 A Datapack for Minecraft Java Edition that brings parts of the Better Builder's Wand Mod into Vanilla Minecraft
 
