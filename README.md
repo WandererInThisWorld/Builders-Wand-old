@@ -4,6 +4,10 @@
 
 A Datapack for Minecraft Java Edition that brings parts of the Better Builder's Wand Mod into Vanilla Minecraft
 
+If the Datapack is installed, a new advancement tab shows up with a symbol that is the texture of the Builder's Wand. 
+In the description of that Icon it shows that you can run the function: "/function bw:info" for further information, that you can also read up on in the following:
+_______________________________________________________________________________________________________________________________
+
 As the Name suggests, this Datapack adds a Wand into the game that lets you place Blocks down faster than just one at a Time. When the player holds the Wand in the Main Hand it projects a Marker onto any surface the player is looking at. Based on the Mode particles will show an Outine of where Blocks could be placed.
 
 To Select the Mode which dictates the way Blocks are being placed, switch the Item from your Mainhand into your Offhand. Then a Chat Message appears where you get three options: [North-South (X)]  [East-West (Z)] and [Up-Down (Y)]. Click either one of those and Particles will change, unless you already have that Mode. The Marker shows particles around itself as an outline, roughly the size of a Block, and depending on the Mode, outlines into the +/- x-Direction, +/- z-Direction and +/- y-Direction. It expands up to 4 Blocks in each Direction from the Marker.
@@ -26,9 +30,17 @@ The Items have to have the correct count. It won't work if you throw 3 Sticks or
 
 # Installation
 
-To install this Datapack correctly you need to download two zipfiles, named: "builders_wand.zip" and Builder's Wand.zip" which you can see directly in the Directory. Click on these zip files and each time you will be brought to a different page with a direct Download Button on the right hand side. Click that and save it. Then open your Minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile named: "builders_wand.zip" needs to be copied into.
+Download the files from the Folder that match your Game Version.
+There are two zipfiles in each Folder. 
 
-The Texture for the Wand is provided with a Resourcepack that comes as a file named "Builder's Wand.zip". Copy The Resourcepack into your Resourepacks Folder in your Minecraft Directory and activate the Resourcepack in the Game under Options-> Resource Packs.
+In 1.13: "builders_wand.zip" and "Builder's Wand.zip" 
+
+In 1.14: "builders_wand.zip" and "Builder's Wand Texture.zip" 
+
+Click on these zip files and each time you will be brought to a page with a direct Download Button on the right hand side. Click that and save it. 
+Then open your Minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile named: "builders_wand.zip" needs to be copied into.
+
+The Texture for the Wand is provided with a Resourcepack that comes as a file named "Builder's Wand.zip" or "Builder's Wand Texture.zip", based on what Version you want. Copy this zip file into your Resourepacks Folder in your Minecraft Directory and activate the Resourcepack in the Game under Options-> Resource Packs.
 
 # Uninstall
 
@@ -38,11 +50,13 @@ This will remove the scoreboards that were added to make it work. Then you can c
 # Technical/Other
 
 In the 1.13-Version:
+
 The Wand is a retextured Carrot on a Stick. It's unbreakable and has the Damage Value 3. This makes it incompatible with other datapacks which make use of carots on a stick. It can be made compatible with other Datapacks that use Carrot on a Stick Items under the Condition that the Damage Value they're using is not 3. To make it compatible, the Resourcepacks from either Packs need to be combined. If there is ever a Case of incompatible datapacks because of these damage values, let me know which Datapack it is and I'll try to make them work with this Datapack.
 
 In the 1.14.WIP-Version:
-The Wand is still a retextured Carrot on a Stick. to texture it, the texturepack uses the new feature: "CustomModelData" The Value I'm using is 830224. This makes it incompatible with other datapacks which use CustomModelData for their carrot on a stick items. It can be made compatible by combining the Resourcepacks from either Packs. If there is a Case of incompatible datapacks because of these value, let me know which Datapack it is and I'll make them work with this Datapack.
+
+The Wand is still a retextured Carrot on a Stick. To texture it, the texturepack uses a new feature: "CustomModelData". The Value I'm using is 830224. This makes it incompatible with other datapacks which use CustomModelData for their carrot on a stick items. It can be made compatible by combining the Resourcepacks from either Packs. If there is a Case of incompatible datapacks because of this value, let me know which Datapack and I'll make them work with this Datapack.
 
 # Updated 09.05.2019
 
-Updated to 1.14. Made more Blocks useable. Incorporated Placement Rules for some Blocks into the datapack, but not for every Block that has such Rules. Texture is using CustomModelData now.
+Updated to 1.14. Made more Blocks useable. Incorporated Placement Rules for some Blocks into the datapack, but not for every Block that has such Rules. Texture is using CustomModelData now. Advancement tab for "Installed Datapacks" shows with an icon for this datapack in it, following the conventions of the "Minecraft Datapacks"-Discord.
