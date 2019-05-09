@@ -1,6 +1,8 @@
 # Builders Wand
 
-A Datapack for Minecraft Java Edition 1.13 that brings parts of the Better Builder's Wand Mod into Vanilla Minecraft
+# 1.13 Version is
+
+A Datapack for Minecraft Java Edition that brings parts of the Better Builder's Wand Mod into Vanilla Minecraft
 
 As the Name suggests, this Datapack adds a Wand into the game that lets you place Blocks down faster than just one at a Time. When the player holds the Wand in the Main Hand it projects a Marker onto any surface the player is looking at. Based on the Mode particles will show an Outine of where Blocks could be placed.
 
@@ -8,10 +10,12 @@ To Select the Mode which dictates the way Blocks are being placed, switch the It
 
 In order for you to place Blocks with the Wand, you need to Place a Line of Blocks that you would like to expand on, first. Then place your Marker on that Line and rightclick. To place Blocks you will need to have the appropriate Amount of Items in your Inventory. If you run out of Items, you can't place them anymore, logically. The most Blocks you can place at the same time is 9. You can't place Blocks inside the Blockspace of where you any other entities are standing, which means you can't suffocate yourself and others.
 
-The "system" behind all this will always try to let you place the Block you're looking at. Imagine a Situation where you're covering grass blocks with stone, for example: If you looked at the grass blocks on the Ground it would try to place grass blocks, look at the stone above it and it will try to place stone. When it comes to slabs and stairs and any Blocks that have Blockstates, it will try to place the same Blockstate it finds, except the "waterlogged" Blockstate.
-Most Blocks are supported with this, especially the Building Blocks. If you looked at a Block that is not supported, it will try to place the last supported Block that you looked at if you have the items for it.
+The "system" behind all this will always try to let you place the Block you're looking at. Imagine a Situation where you're covering grass blocks with stone, for example: If you looked at the grass blocks on the Ground it would try to place grass blocks, look at the stone above it and it will try to place stone. When it comes to slabs and stairs and any Blocks that have Blockstates, it will try to place the same Blockstate it finds.
+
+For the 1.13 Version, most Blocks are supported with this, especially the Building Blocks. If you looked at a Block that is not supported, it will try to place the last supported Block that you looked at if you have the items for it.
 What Blocks are unsupported/can't be placed? - Pressure Plates, Buttons, Flowers, Carved Pumkpins, Jack o Lanterns, Sponge, Saplings, Snow(layers), Cactus, Sugar Cane, Kelp, Corals(the fans and non-blocks), Sea Pickles, Torches, Chests, Furnace, Note Block, Sign, Ladder, Jukebox, Beds, Banners and Doors. 
 
+In the 1.14 Version it won't work for Banners, Beds and Skulls. Otherwise every Block in the Game can be placed with this.
 
 # Crafting
 
@@ -33,8 +37,12 @@ This will remove the scoreboards that were added to make it work. Then you can c
 
 # Technical/Other
 
+In the 1.13-Version:
 The Wand is a retextured Carrot on a Stick. It's unbreakable and has the Damage Value 3. This makes it incompatible with other datapacks which make use of carots on a stick. It can be made compatible with other Datapacks that use Carrot on a Stick Items under the Condition that the Damage Value they're using is not 3. To make it compatible, the Resourcepacks from either Packs need to be combined. If there is ever a Case of incompatible datapacks because of these damage values, let me know which Datapack it is and I'll try to make them work with this Datapack.
 
-# Updated 04.09.2018
+In the 1.14.WIP-Version:
+The Wand is still a retextured Carrot on a Stick. to texture it, the texturepack uses the new feature: "CustomModelData" The Value I'm using is 830224. This makes it incompatible with other datapacks which use CustomModelData for their carrot on a stick items. It can be made compatible by combining the Resourcepacks from either Packs. If there is a Case of incompatible datapacks because of these value, let me know which Datapack it is and I'll make them work with this Datapack.
 
-Removed a redundant query for displaying the particles.
+# Updated 09.05.2019
+
+Updated to 1.14. Made more Blocks useable. Incorporated Placement Rules for some Blocks into the datapack, but not for every Block that has such Rules. Texture is using CustomModelData now.
