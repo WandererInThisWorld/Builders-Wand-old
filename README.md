@@ -4,22 +4,26 @@
 
 A Datapack for Minecraft Java Edition that brings parts of the Better Builder's Wand Mod into Vanilla Minecraft
 
-If the Datapack is installed, a new advancement tab shows up with a symbol that is the texture of the Builder's Wand. 
-In the description of that Icon it shows that you can run the function: "/function bw:info" for further information, that you can also read up on in the following:
+# If this Datapack is installed, a new advancement tab shows up to let you know it's installed. 
+
+![Tab](https://github.com/Elemend/Builders-Wand/blob/master/datapacks/builders_wand/2019-05-12_12.09.59.png)
+
+The Icon is the texture of the Builder's Wand. If you don't have the texturepack installed, or another datapack overwrites the texture, the Icon will show the barrier texture. This is in Accordance to the Conventions of the [Minecraft Datapacks Discord](https://discord.gg/56ySADc)
+The description shows that you can run the function: "/function bw:info" for further information but you can also read the infos in the following:
 _______________________________________________________________________________________________________________________________
 
 As the Name suggests, this Datapack adds a Wand into the game that lets you place Blocks down faster than just one at a Time. When the player holds the Wand in the Main Hand it projects a Marker onto any surface the player is looking at. Based on the Mode particles will show an Outine of where Blocks could be placed.
 
 To Select the Mode which dictates the way Blocks are being placed, switch the Item from your Mainhand into your Offhand. Then a Chat Message appears where you get three options: [North-South (X)]  [East-West (Z)] and [Up-Down (Y)]. Click either one of those and Particles will change, unless you already have that Mode. The Marker shows particles around itself as an outline, roughly the size of a Block, and depending on the Mode, outlines into the +/- x-Direction, +/- z-Direction and +/- y-Direction. It expands up to 4 Blocks in each Direction from the Marker.
 
-In order for you to place Blocks with the Wand, you need to Place a Line of Blocks that you would like to expand on, first. Then place your Marker on that Line and rightclick. To place Blocks you will need to have the appropriate Amount of Items in your Inventory. If you run out of Items, you can't place them anymore, logically. The most Blocks you can place at the same time is 9. You can't place Blocks inside the Blockspace of where you any other entities are standing, which means you can't suffocate yourself and others.
+In order for you to place Blocks with the Wand, you need to Place a Line of Blocks that you would like to expand on, first. Then place your Marker on that Line and rightclick. To place Blocks you will need to have the appropriate Amount of Items in your Inventory. If you run out of Items, you can't place them anymore, logically. The most Blocks you can place at the same time is 9. You can't place Blocks inside the Blockspace of where you and other entities are standing, which means you can't suffocate yourself and others.
 
 The "system" behind all this will always try to let you place the Block you're looking at. Imagine a Situation where you're covering grass blocks with stone, for example: If you looked at the grass blocks on the Ground it would try to place grass blocks, look at the stone above it and it will try to place stone. When it comes to slabs and stairs and any Blocks that have Blockstates, it will try to place the same Blockstate it finds.
 
-For the 1.13 Version, most Blocks are supported with this, especially the Building Blocks. If you looked at a Block that is not supported, it will try to place the last supported Block that you looked at if you have the items for it.
+For the **1.13** Version, most Blocks are supported with this, especially the Building Blocks. If you looked at a Block that is not supported, it will try to place the last supported Block that you looked at if you have the items for it.
 What Blocks are unsupported/can't be placed? - Pressure Plates, Buttons, Flowers, Carved Pumkpins, Jack o Lanterns, Sponge, Saplings, Snow(layers), Cactus, Sugar Cane, Kelp, Corals(the fans and non-blocks), Sea Pickles, Torches, Chests, Furnace, Note Block, Sign, Ladder, Jukebox, Beds, Banners and Doors. 
 
-In the 1.14 Version it won't work for Banners, Beds and Skulls. Otherwise every Block in the Game can be placed with this.
+In the **1.14** Version it won't work for Banners, Beds, Skulls, Monster Egg Blocks and Grass paths. Otherwise every Block in the Game can be placed with this.
 
 # Crafting
 
@@ -33,19 +37,19 @@ The Items have to have the correct count. It won't work if you throw 3 Sticks or
 Download the files from the Folder that match your Game Version.
 There are two zipfiles in each Folder. 
 
-In 1.13: "builders_wand.zip" and "Builder's Wand.zip" 
+**In 1.13**: "builders_wand.zip" and "Builder's Wand.zip" 
 
-In 1.14: "builders_wand.zip" and "Builder's Wand Texture.zip" 
+**In 1.14**: "builders_wand.zip" and "Builder's Wand Texture.zip" 
 
 Click on these zip files and each time you will be brought to a page with a direct Download Button on the right hand side. Click that and save it. 
 Then open your Minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile named: "builders_wand.zip" needs to be copied into.
 
-The Texture for the Wand is provided with a Resourcepack that comes as a file named "Builder's Wand.zip" or "Builder's Wand Texture.zip", based on what Version you want. Copy this zip file into your Resourepacks Folder in your Minecraft Directory and activate the Resourcepack in the Game under Options-> Resource Packs. If the Resourcepack is not installed, the icon in the advancement tab will show a barrier texture.
+The Texture for the Wand is provided with a Resourcepack that comes as a file named "Builder's Wand.zip" or "Builder's Wand Texture.zip", based on what Version you want. Copy this zip file into your Resourepacks Folder in your Minecraft Directory and activate the Resourcepack in the Game under Options-> Resource Packs. You'll recognise the Texture from the Picture above. If the Resourcepack is not installed, the icon in the advancement tab will show a barrier texture.
 
 # Uninstall
 
-To completely remove this Datapack from your world, you need to execute a function from chat: /function builders_wand:uninstall_bw
-This will remove the scoreboards that were added to make it work. Then you can close the world and delete the zip file "builders_wand".
+To completely remove this Datapack from your world, you need to execute a function from chat: /function bw:uninstall_bw
+This will remove the scoreboards that were added to make it work. Then you can close the world and delete the zip file "builders_wand". It might become necessary to close Minecraft completely since a message could pop up saying: "the file is still in use".
 
 # Technical/Other
 
