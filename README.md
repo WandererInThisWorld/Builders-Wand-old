@@ -1,4 +1,4 @@
-# The 1.14 Version is a Work in Progress. In its current state it's useable, but I still want to change some things around.
+# The 1.14 Version is a Continuation of the 1.13 Version. It's not Compatible with my other [Builder's Wand datapack](https://github.com/Elemend/Builders-Wand-1.14)
 
 # Builders Wand
 
@@ -61,6 +61,6 @@ In the 1.14.WIP-Version:
 
 The Wand is still a retextured Carrot on a Stick. To texture it, the texturepack uses a new feature: "CustomModelData". The Value I'm using is 830224. This makes it incompatible with other datapacks which use CustomModelData for their carrot on a stick items. It can be made compatible by combining the Resourcepacks from either Packs. If there is a Case of incompatible datapacks because of this value, let me know which Datapack and I'll make them work with this Datapack.
 
-# Updated 09.05.2019
+# Updated 21.05.2019
 
-Updated to 1.14. Made more Blocks useable. Incorporated Placement Rules for some Blocks into the datapack, but not for every Block that has such Rules. Texture is using CustomModelData now. Advancement tab for "Installed Datapacks" shows with an icon for this datapack in it, following the conventions of the "Minecraft Datapacks"-Discord.
+Decided to make a recreation of the Better Builder's Wand Mod as [another repository](https://github.com/Elemend/Builders-Wand-1.14) and leaving this repository as it was.
