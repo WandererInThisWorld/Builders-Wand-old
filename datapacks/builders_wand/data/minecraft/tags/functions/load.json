@@ -1,6 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"builders_wand:load_bw"
+		"bw:load_bw"
 	]
 }
